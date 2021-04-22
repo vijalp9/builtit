@@ -19,7 +19,7 @@ public class Crawl {
      */
     public static void main(String[] args) throws Exception {
         String crawlUrl = "http://www.wiprodigital.com";
-        if (args != null || args.length == 1){
+        if (args != null && args.length == 1){
             crawlUrl = args[0];
         }
         System.out.println("Starting crawl of " + crawlUrl);
