@@ -34,7 +34,7 @@ Simple recursion to populate a queue of found links on each page, then iterate t
 
 Once the queue is empty, print out the data that we found for each visited link for review.
 
-Sample single page output:
+Sample page output:
 ```bash
 URL Crawled: http://192.168.1.178:58048/
 Linked Images: 
@@ -47,8 +47,6 @@ Same Domain Links [CRAWLABLE]:
  -> http://192.168.1.178:58048/Page4.html
  -> http://192.168.1.178:58048/Page2.html
 ```
-
-
 
 ## Explanation of what could be done with more time
 
