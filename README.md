@@ -26,6 +26,7 @@ To see the corresponding results/print statements, execute via:
 ```bash
 mvn test
 ```
+The test case validates that each of the pages iterated from the test html files match the expected # of external links, same domain links, # of images, and whether the link is accessible or not.
 
 ## Reasoning and describe any trade offs
 Application uses [jsoup](https://jsoup.org/) for downloading and parsing the webpages to extract out the links.
