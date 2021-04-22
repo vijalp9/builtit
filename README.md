@@ -57,3 +57,4 @@ Same Domain Links [CRAWLABLE]:
 - Consider making the crawler multi-threaded to process individual sites faster
 - More thorough test cases / validation
 - Logging
+- Find links created using javascript (e.g. onclick function instead of relying on proper HTML anchor tags)
